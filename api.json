@@ -1,0 +1,804 @@
+{
+  "version": "6.1.1",
+  "scope": "@tsed",
+  "symbolTypes": [
+    {
+      "value": "decorator",
+      "label": "Decorator",
+      "code": "@"
+    },
+    {
+      "value": "class",
+      "label": "Class",
+      "code": "C"
+    },
+    {
+      "value": "enum",
+      "label": "Enum",
+      "code": "E"
+    },
+    {
+      "value": "function",
+      "label": "Function",
+      "code": "F"
+    },
+    {
+      "value": "interface",
+      "label": "Interface",
+      "code": "I"
+    },
+    {
+      "value": "const",
+      "label": "Constant",
+      "code": "K"
+    },
+    {
+      "value": "service",
+      "label": "Service",
+      "code": "S"
+    },
+    {
+      "value": "type",
+      "label": "Type alias",
+      "code": "T"
+    }
+  ],
+  "symbolStatus": [
+    {
+      "value": "stable",
+      "label": "Stable"
+    },
+    {
+      "value": "deprecated",
+      "label": "Deprecated"
+    },
+    {
+      "value": "experimental",
+      "label": "Experimental"
+    },
+    {
+      "value": "private",
+      "label": "Private"
+    },
+    {
+      "value": "public",
+      "label": "Public"
+    }
+  ],
+  "modules": {
+    "@tsed/file": {
+      "symbols": [
+        {
+          "path": "/api/file/types/FileAppender",
+          "symbolName": "FileAppender",
+          "module": "@tsed/file",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/file"
+    },
+    "@tsed/insight": {
+      "symbols": [
+        {
+          "path": "/api/insight/types/InsightAppender",
+          "symbolName": "InsightAppender",
+          "module": "@tsed/insight",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/insight"
+    },
+    "@tsed/logentries": {
+      "symbols": [
+        {
+          "path": "/api/logentries/types/LogEntriesAppender",
+          "symbolName": "LogEntriesAppender",
+          "module": "@tsed/logentries",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/logentries"
+    },
+    "@tsed/loggly": {
+      "symbols": [
+        {
+          "path": "/api/loggly/types/LogglyAppender",
+          "symbolName": "LogglyAppender",
+          "module": "@tsed/loggly",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/loggly"
+    },
+    "@tsed/logstash-http": {
+      "symbols": [
+        {
+          "path": "/api/logstash-http/types/LogStashHttpAppender",
+          "symbolName": "LogStashHttpAppender",
+          "module": "@tsed/logstash-http",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/logstash-http"
+    },
+    "@tsed/logstash-udp": {
+      "symbols": [
+        {
+          "path": "/api/logstash-udp/types/LogStashUdpAppender",
+          "symbolName": "LogStashUdpAppender",
+          "module": "@tsed/logstash-udp",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/logstash-udp"
+    },
+    "@tsed/rabbitmq": {
+      "symbols": [
+        {
+          "path": "/api/rabbitmq/types/RabbitMQAppender",
+          "symbolName": "RabbitMQAppender",
+          "module": "@tsed/rabbitmq",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/rabbitmq"
+    },
+    "@tsed/seq": {
+      "symbols": [
+        {
+          "path": "/api/seq/types/SeqAppender",
+          "symbolName": "SeqAppender",
+          "module": "@tsed/seq",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/seq"
+    },
+    "@tsed/slack": {
+      "symbols": [
+        {
+          "path": "/api/slack/types/SlackAppender",
+          "symbolName": "SlackAppender",
+          "module": "@tsed/slack",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/slack"
+    },
+    "@tsed/smtp": {
+      "symbols": [
+        {
+          "path": "/api/smtp/types/SmtpAppender",
+          "symbolName": "SmtpAppender",
+          "module": "@tsed/smtp",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/smtp"
+    },
+    "@tsed/logger": {
+      "symbols": [
+        {
+          "path": "/api/logger/types/core/LogContext",
+          "symbolName": "LogContext",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/core/LogEvent",
+          "symbolName": "LogEvent",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/core/LogLevel",
+          "symbolName": "LogLevel",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/core/levels",
+          "symbolName": "levels",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/class/AppenderOptions",
+          "symbolName": "AppenderOptions",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/class/IBaseAppender",
+          "symbolName": "IBaseAppender",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/class/BaseAppender",
+          "symbolName": "BaseAppender",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/components/ConsoleAppender",
+          "symbolName": "ConsoleAppender",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "private",
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/components/StderrAppender",
+          "symbolName": "StderrAppender",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "private",
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/components/StdoutAppender",
+          "symbolName": "StdoutAppender",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "private",
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/decorators/Appender",
+          "symbolName": "Appender",
+          "module": "@tsed/logger",
+          "symbolType": "decorator",
+          "symbolLabel": "Decorator",
+          "symbolCode": "@",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/interfaces/AppenderConfiguration",
+          "symbolName": "AppenderConfiguration",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/interfaces/Partial",
+          "symbolName": "Partial",
+          "module": "@tsed/logger",
+          "symbolType": "type",
+          "symbolLabel": "Type alias",
+          "symbolCode": "T",
+          "status": [
+            "private",
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/interfaces/PartialAppenderConfiguration",
+          "symbolName": "PartialAppenderConfiguration",
+          "module": "@tsed/logger",
+          "symbolType": "type",
+          "symbolLabel": "Type alias",
+          "symbolCode": "T",
+          "status": [
+            "private",
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/registries/AppenderProvider",
+          "symbolName": "AppenderProvider",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/appenders/registries/AppendersRegistry",
+          "symbolName": "AppendersRegistry",
+          "module": "@tsed/logger",
+          "symbolType": "const",
+          "symbolLabel": "Constant",
+          "symbolCode": "K",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/class/BaseLayout",
+          "symbolName": "BaseLayout",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/class/LayoutReplacer",
+          "symbolName": "LayoutReplacer",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/class/Layouts",
+          "symbolName": "Layouts",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/components/BasicLayout",
+          "symbolName": "BasicLayout",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/components/ColoredLayout",
+          "symbolName": "ColoredLayout",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/components/DummyLayout",
+          "symbolName": "DummyLayout",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/components/JsonLayout",
+          "symbolName": "JsonLayout",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/components/MessagePassThroughLayout",
+          "symbolName": "MessagePassThroughLayout",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/components/PatternLayout",
+          "symbolName": "PatternLayout",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "return",
+            "authors",
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/constants/LOG_COLORS",
+          "symbolName": "LOG_COLORS",
+          "module": "@tsed/logger",
+          "symbolType": "enum",
+          "symbolLabel": "Enum",
+          "symbolCode": "E",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/decorators/Layout",
+          "symbolName": "Layout",
+          "module": "@tsed/logger",
+          "symbolType": "decorator",
+          "symbolLabel": "Decorator",
+          "symbolCode": "@",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/interfaces/TokenHandler",
+          "symbolName": "TokenHandler",
+          "module": "@tsed/logger",
+          "symbolType": "type",
+          "symbolLabel": "Type alias",
+          "symbolCode": "T",
+          "status": [
+            "private",
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/interfaces/TokensHandlers",
+          "symbolName": "TokensHandlers",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/interfaces/BasicLayoutConfiguration",
+          "symbolName": "BasicLayoutConfiguration",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/interfaces/IReplacers",
+          "symbolName": "IReplacers",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/registries/LayoutProvider",
+          "symbolName": "LayoutProvider",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/registries/LayoutsRegistry",
+          "symbolName": "LayoutsRegistry",
+          "module": "@tsed/logger",
+          "symbolType": "const",
+          "symbolLabel": "Constant",
+          "symbolCode": "K",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/utils/truncate",
+          "symbolName": "truncate",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/utils/pad",
+          "symbolName": "pad",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/utils/truncateAndPad",
+          "symbolName": "truncateAndPad",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/utils/colorizeStart",
+          "symbolName": "colorizeStart",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/utils/colorizeEnd",
+          "symbolName": "colorizeEnd",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/utils/colorize",
+          "symbolName": "colorize",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/utils/removeColors",
+          "symbolName": "removeColors",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/layouts/utils/timestampLevelAndCategory",
+          "symbolName": "timestampLevelAndCategory",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/class/Logger",
+          "symbolName": "Logger",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/class/LoggerAppender",
+          "symbolName": "LoggerAppender",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/class/LoggerAppenders",
+          "symbolName": "LoggerAppenders",
+          "module": "@tsed/logger",
+          "symbolType": "class",
+          "symbolLabel": "Class",
+          "symbolCode": "C",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/utils/ITableSettings",
+          "symbolName": "ITableSettings",
+          "module": "@tsed/logger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/utils/charRepeater",
+          "symbolName": "charRepeater",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/utils/buildStartLine",
+          "symbolName": "buildStartLine",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/utils/buildEndLine",
+          "symbolName": "buildEndLine",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/utils/buildLine",
+          "symbolName": "buildLine",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/utils/buildLineData",
+          "symbolName": "buildLineData",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/logger/types/logger/utils/drawTable",
+          "symbolName": "drawTable",
+          "module": "@tsed/logger",
+          "symbolType": "function",
+          "symbolLabel": "Function",
+          "symbolCode": "F",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/logger"
+    }
+  }
+}
